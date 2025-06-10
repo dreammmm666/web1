@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Img from '../compo/Img';
 import 'aos/dist/aos.css'; //แอนิเมชั่น
 import AOS from 'aos'; //แอนิเมชั่น
-import Footer from '../compo/footer';
+import Footer from '../compo/Footer';
 
 import '../css/performance.css';
 

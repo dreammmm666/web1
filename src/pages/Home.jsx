@@ -3,7 +3,7 @@ import Img01 from '../img/img001.jpg';
 import '../css/Home.css'
 import 'aos/dist/aos.css'; //แอนิเมชั่น
 import AOS from 'aos'; //แอนิเมชั่น
-import Footer from '../compo/footer';
+import Footer from '../compo/Footer';
 import Time from '../compo/Time';
 
 

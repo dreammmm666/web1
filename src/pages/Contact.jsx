@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Footer from '../compo/footer'
+import Footer from '../compo/Footer'
 import '../css/Contact.css'
 import Facebook from '../img/facebook.png'
 import Line from '../img/LINE.png'
