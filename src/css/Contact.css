@@ -1,0 +1,127 @@
+.contact-box {
+  width: 1000px;
+  height: 300px;
+  margin: 7rem auto;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #0051ff;
+margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 300px; /* ให้โลโก้ใช้ความกว้างคงที่ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 40%; /* ปรับตามต้องการ */
+  height: auto;
+}
+
+.right {
+  flex: 1; /* ช่องข้อความขยายเต็มที่ */
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  color: aliceblue;
+  font-size: 40px;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.contactGmail{
+  color: aliceblue;
+  font-size: 40px;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.contact-box-Line {
+  width: 1000px;
+  height: 300px;
+  margin: 7rem auto;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #00ff11;
+
+  display: flex;
+  align-items: center;
+}
+
+.contact-box-Gmail {
+  width: 1000px;
+  height: 300px;
+  margin: 7rem auto;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #ff0d00;
+
+  display: flex;
+  align-items: center;
+}
+.contact-box-Call {
+  width: 1000px;
+  height: 300px;
+  margin: 7rem auto;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #06702f;
+
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width :932px) {
+  .contact-box{
+    width: 300px;
+    height: 100px;
+    margin: 1rem auto;
+  }
+  .left img{
+    width: 60%; /* ปรับตามต้องการ */
+  height: auto;
+  }
+  .contact{
+    font-size: 20px;
+  }
+
+  .contact-box-Line{
+    width: 300px;
+    height: 100px;
+    margin: 1rem auto;
+  }
+
+  .contact-box-Gmail{
+    width: 300px;
+    height: 100px;
+    margin: 1rem auto;
+  }
+
+  .contact-box-Call {
+     width: 300px;
+    height: 100px;
+    margin: 1rem auto;
+  }
+
+  .contactGmail{
+    font-size: 10px;
+  }
+}

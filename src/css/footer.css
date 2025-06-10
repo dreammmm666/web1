@@ -1,0 +1,55 @@
+
+html, body {
+  height: 100%;
+  margin: 0; 
+}
+
+
+body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  font-family: Arial, sans-serif;
+}
+
+/* พื้นฐานของ footer */
+.footer {
+  background-color: #000000; 
+  color: white; 
+  padding: 40px 0;         /* เพิ่มพื้นที่ด้านบนและล่าง */
+  text-align: center; 
+  font-size: 18px;         /* ปรับขนาดตัวอักษรให้ใหญ่ขึ้น */
+  width: 100%; 
+}
+
+
+.footer-content p {
+  margin: 0; 
+  padding: 0 10px;
+}
+
+
+.footer-links a {
+  color: #fff; 
+  text-decoration: none; 
+  padding: 0 10px;
+}
+
+.footer-links a:hover {
+  color: #116b0c; 
+}
+
+@media screen and (max-width :932px) {
+  .footer {
+    width: 100%; 
+    font-size: 10px;
+   /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

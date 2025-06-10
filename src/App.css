@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+   /*background-color: #0f2d20;*/
+   background: linear-gradient(180deg, #000000 0%, #0f2d20 100%); /*การไล่สี*/
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+
+ 
+ }

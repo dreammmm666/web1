@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+     background-color: #040404;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    & nav{
+        padding: 30px 20px;
+    }
+   
+    
+        
+    
+
+    & .Logo{
+        color: #ffffff;
+         font-size: 40px;
+         font-family: Georgia, serif;
+    }
+    & a{
+         text-decoration: none;
+         color: aliceblue;
+        
+    }
+    & a:hover {
+        color: #1a7227;
+        transition: color 0.3s;
+        
+          
+    }
+}
+ .Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px; /* ปรับตามความสูงของ header หรือความต้องการ */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Logo img {
+  width: 200px;
+  
+  object-fit: contain;
+  
+}
+li {
+        font-size: 25px;
+        list-style: none;
+          font-family: 'Noto Sans Thai', sans-serif;
+font-weight: 700
+}
+
+.menu{
+        color: aliceblue;
+        display: flex;
+        gap: 3rem;
+        
+        
+    }
+
+@media screen and (max-width :932px) {
+   /* main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }*/
+   li{
+    
+     white-space: nowrap;
+   }
+    .Logo img {
+  width: 60px;
+  
+  object-fit: contain;
+  }
+   .menu{
+    margin-left: 1rem;
+    gap: 1rem;
+   }
+  li {
+        font-size: 10px;
+        list-style: none;
+          font-family: 'Noto Sans Thai', sans-serif;
+font-weight: 700;
+gap: 10px;
+     
+}
+
+ .menu{
+    gap: 1rem;
+    margin-left: 5rem;
+ }
+ nav{
+     position: fixed;
+     z-index: 1000;
+      bottom: 0; 
+      border-top: 1px solid #ccc;
+        width: 100%;
+ }
+ 
+}

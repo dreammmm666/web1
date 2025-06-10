@@ -1,0 +1,70 @@
+/* Img.css */
+.slider {
+  position: relative;
+  width: 50%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #00ff88;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+.slider-inner {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-inner img {
+  height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
+  padding: 3rem;
+  width: 100%;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;             /* กำหนดความกว้าง */
+  height: 60px;            /* กำหนดความสูง */
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 50%;      /* ทำให้เป็นวงกลม */
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ทำให้ SVG อยู่ตรงกลาง */
+}
+.slider-button.left {
+  left: 10px;
+}
+
+.slider-button.right {
+  right: 10px;
+}
+
+.slider-button svg {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width :932px) {
+    .slider{
+        width: 90%;
+    }
+    .slider-inner img {
+        height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
+   padding: 1rem;
+  width: 100%;
+    }
+}

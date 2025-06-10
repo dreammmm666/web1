@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+.container1{
+    display: flex;
+  justify-content: center;
+}
+.img01{
+    display: flex;
+    width: 70%;
+    margin-top: 3rem;
+    margin: 3rem auto;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 0 10px #00ff88;
+}
+
+
+
+.pbig{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.divp{
+    margin-top: 15rem;
+    width: 1100px;/**/
+    /*height: 400px;*/
+    margin: 5rem ;
+    border-radius: 25px;
+     padding: 3rem;
+   
+      background-color: rgba(0, 0, 0, 0.5);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 0 10px #00ff88;
+}
+
+.responsive-text {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  text-align: center; /* เพิ่มหากอยากให้จัดกลาง */
+}
+
+@media screen and (max-width :932px) {
+   .pbig{
+    font-size: 25px;
+   }
+  .responsive-text{
+    font-size: 10px;
+  }
+ 
+  .divp{
+    width: 350px;
+    font-size: 90px;
+     white-space: nowrap;
+     margin-top: 1rem;
+  }
+
+   
+    .img01{
+        width: 350px;
+       
+        margin-top: 3rem;
+    }
+
+   
+}
