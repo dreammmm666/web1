@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/Time.css'; // import ไฟล์ CSS
+import '../css/Time.css'; 
 
 const Time = () => {
   const openHour = 8;
