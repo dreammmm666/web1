@@ -8,7 +8,7 @@ function footer() {
     <div className="App" >
       <footer className="footer">
         <div className="footer-content">
-          <p>TAKIANGIDEADESIGN | 3/7 หมู่ 15 ถนนประตูเชียงใหม่ ตำบลรอบเวียง อำเภอเมืองเชียงราย Chiang Rai, Thailand, Chiang Rai 57000</p>
+          <p>TAKIANGIDEADESIGN | 3/7 หมู่ 15 ถนนประตูเชียงใหม่ ตำบลรอบเวียง อำเภอเมืองเชียงราย Chiang Rai,57000</p>
           <div className="footer-links">
             <p>เปิดบริการทุกวันจันทร์ถึงเสาร์ ตั้งแต่เวลา 08:00 - 17:00 น.|<Link to='/Contact'>ติดต่อเรา</Link> </p>
             

@@ -27,8 +27,8 @@
 
 @media screen and (max-width :932px) {
    .time-container{
-    width: 100%;
-    padding: 10px 65%;
+    width:100%;
+    padding: 10px 50%;
     font-size: small;
    }
 }
