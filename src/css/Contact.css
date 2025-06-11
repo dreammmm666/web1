@@ -7,7 +7,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 10px #0051ff;
-margin-top: auto;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
 }
@@ -46,6 +46,7 @@ margin-top: auto;
   font-weight: 700;
   margin: 0;
   white-space: nowrap;
+  margin: 7rem auto;
 }
 
 .contact-box-Line {
@@ -74,6 +75,7 @@ margin-top: auto;
 
   display: flex;
   align-items: center;
+  
 }
 .contact-box-Call {
   width: 1000px;
@@ -89,39 +91,66 @@ margin-top: auto;
   align-items: center;
 }
 
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* ✅ ระยะห่าง 1rem ระหว่างแต่ละกล่อง */
+  }
+
 @media screen and (max-width :932px) {
+
+   .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* ✅ ระยะห่าง 1rem ระหว่างแต่ละกล่อง */
+  }
+
   .contact-box{
     width: 300px;
-    height: 100px;
-    margin: 1rem auto;
-  }
-  .left img{
-    width: 60%; /* ปรับตามต้องการ */
-  height: auto;
+  height: 150px;
+  margin: 7rem auto;
+  padding: 3rem;
+  margin-top: 1rem;
+  margin: 2rem auto;
   }
   .contact{
-    font-size: 20px;
+   font-size: 15px;
+  }
+  .contactGmail{
+   font-size: 8px;
   }
 
   .contact-box-Line{
     width: 300px;
-    height: 100px;
-    margin: 1rem auto;
+  height: 150px;
+  margin: 2rem auto;
+  padding: 3rem;
+  
+  
   }
 
   .contact-box-Gmail{
     width: 300px;
-    height: 100px;
-    margin: 1rem auto;
+  height: 150px;
+  margin: 2rem auto;
+  padding: 3rem;
+  
   }
 
-  .contact-box-Call {
-     width: 300px;
-    height: 100px;
-    margin: 1rem auto;
+  .contact-box-Call{
+    width: 300px;
+  height: 150px;
+  margin: 2rem  auto;
+  padding: 3rem;
+   
   }
-
-  .contactGmail{
-    font-size: 10px;
+  .left img{
+    width: 50%; /* ปรับตามต้องการ */
+  height: auto;
   }
 }
+

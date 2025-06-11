@@ -21,6 +21,9 @@ function Contact() {
     <>
     <p className='p1' data-aos="fade-down-right">ติดต่อเรา</p>
     <div style={{ marginTop:'3rem',}} data-aos="flip-up"></div>
+    
+  
+
     <center>
     <div className="contact-box"  data-aos="fade-right">
   <div className="left">
@@ -35,8 +38,10 @@ function Contact() {
   <div className="left">
     <a href='https://lin.ee/AntEOCV'  target="_blank" rel="noopener noreferrer"><img src={Line} alt="Line" /></a>
   </div>
+
+  
   <div className="right">
-    <p className="contact">@625hilzl</p>
+    <p className="contact">@625hilzl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   </div>
 </div>
 
@@ -45,7 +50,7 @@ function Contact() {
     <img src={Gmail} alt="Line" />
   </div>
   <div className="right">
-    <p className="contactGmail">takiangideadesign@gmail.com</p>
+    <p className="contactGmail" style={{marginLeft:'0rem'}}>takiangideadesign@gmail.com</p>
   </div>
 </div>
   
@@ -61,6 +66,7 @@ function Contact() {
 
     
     </center>
+   
     <Footer/>
     </>
   )
