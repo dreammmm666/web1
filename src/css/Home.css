@@ -8,8 +8,8 @@
 .img01{
     display: flex;
     width: 70%;
-    margin-top: 3rem;
-    margin: 3rem auto;
+    margin-top: 4rem;
+    margin: 5rem auto;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
 border: 1px solid rgba(255, 255, 255, 0.2);
@@ -21,7 +21,8 @@ box-shadow: 0 0 10px #00ff88;
 .pbig{
     color: aliceblue;
     font-size: 40px;
-    font-family: 'Kanit', sans-serif;
+     font-family: 'Pridi', serif;
+  line-height: 1.6;
 }
 
 .divp{
@@ -41,7 +42,8 @@ box-shadow: 0 0 10px #00ff88;
   margin-top: 1rem;
   font-size: 20px;
   color: #fff;
-  font-family: 'Kanit', sans-serif;
+   font-family: 'Pridi', serif;
+  line-height: 1.6;
   text-align: center; /* เพิ่มหากอยากให้จัดกลาง */
 }
 

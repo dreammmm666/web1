@@ -19,7 +19,7 @@ function Contact() {
     }, []); // ทำงานแค่ครั้งเดียวเมื่อโหลดคอมโพเนนต์
   return (
     <>
-    <p className='p1' data-aos="fade-down-right">ติดต่อเรา</p>
+    <p className='p1-' data-aos="fade-down-right">ติดต่อเรา</p>
     <div style={{ marginTop:'3rem',}} data-aos="flip-up"></div>
     
   
