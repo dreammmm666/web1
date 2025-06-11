@@ -3,6 +3,7 @@ import Img from '../compo/Img';
 import 'aos/dist/aos.css'; //แอนิเมชั่น
 import AOS from 'aos'; //แอนิเมชั่น
 import Footer from '../compo/Footer';
+import Time from '../compo/Time';
 
 import '../css/performance.css';
 
@@ -17,6 +18,7 @@ function Performance() {
     }, []); // ทำงานแค่ครั้งเดียวเมื่อโหลดคอมโพเนนต์
   return (
     <>
+    <Time />
    <p className='p1' data-aos="fade-down-right">ผลงาน</p>
     <div style={{ marginTop:'2rem',}} data-aos="flip-up">
     <Img />

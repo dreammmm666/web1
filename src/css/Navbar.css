@@ -34,9 +34,9 @@
         
     }
     & a:hover {
-        color: #1a7227;
+        color: #2d9c3e;
         transition: color 0.3s;
-        
+         
           
     }
 }
@@ -58,7 +58,7 @@
 li {
         font-size: 25px;
         list-style: none;
-           font-family: 'Pridi', serif;
+        font-family: 'Pridi', serif;
   line-height: 1.6;
 }
 

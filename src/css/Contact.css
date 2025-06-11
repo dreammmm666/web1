@@ -4,7 +4,7 @@
   color: #ffffff;
   margin-top: 3rem;
   margin-left: 15%;
-  font-family: 'Pridi', serif;
+  font-family: 'Mitr', sans-serif;
   line-height: 1.6;
    text-shadow:  0 0 10px #00ff88;;
 }
@@ -47,7 +47,7 @@
   font-size: 40px;
   font-family: 'Pridi', serif;
   line-height: 1.6;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   white-space: nowrap;
 }
@@ -55,8 +55,8 @@
 .contactGmail{
   color: aliceblue;
   font-size: 40px;
-  font-family: 'Noto Sans Thai', sans-serif;
-  font-weight: 700;
+ font-family: 'Pridi', serif;
+   font-weight: 500;
   margin: 0;
   white-space: nowrap;
   margin: 7rem auto;

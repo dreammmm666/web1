@@ -7,6 +7,7 @@ import Gmail from '../img/Gmail.png'
 import Call from '../img/call.png'
 import 'aos/dist/aos.css'; //แอนิเมชั่น
 import AOS from 'aos'; //แอนิเมชั่น
+import Time from '../compo/Time';
 
 function Contact() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function Contact() {
     }, []); // ทำงานแค่ครั้งเดียวเมื่อโหลดคอมโพเนนต์
   return (
     <>
+    <Time />
     <p className='p1-' data-aos="fade-down-right">ติดต่อเรา</p>
     <div style={{ marginTop:'3rem',}} data-aos="flip-up"></div>
     
