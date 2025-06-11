@@ -44,7 +44,7 @@ body {
 @media screen and (max-width :932px) {
   .footer {
     width: 100%; 
-    font-size: 9px;
+    font-size: 8px;
    position: fixed; 
     bottom: 0rem;
     margin-top: 1rem;
@@ -54,5 +54,6 @@ body {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    white-space: nowrap;
   }
 }
