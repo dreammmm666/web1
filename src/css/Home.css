@@ -60,12 +60,13 @@ box-shadow: 0 0 10px #00ff88;
     font-size: 90px;
      white-space: nowrap;
      margin-top: 1rem;
+     margin: 2rem auto;
   }
 
    
     .img01{
         width: 350px;
-       
+       margin: 2rem auto;
         margin-top: 3rem;
     }
 
