@@ -33,7 +33,7 @@ const Time = () => {
 
         if (minutesUntilClose <= 30) {
           const sec = 59 - currentSecond;
-          setMessage(`🚨 ร้านกำลังจะปิดในอีก ${minutesUntilClose} นาที ${sec} วินาที`);
+          setMessage(` ร้านกำลังจะปิดในอีก ${minutesUntilClose} นาที ${sec} วินาที`);
         } else {
           const hoursLeft = Math.floor(minutesUntilClose / 60);
           const minutesLeft = minutesUntilClose % 60;
@@ -41,7 +41,7 @@ const Time = () => {
           const hourStr = hoursLeft > 0 ? `${hoursLeft} ชั่วโมง` : '';
           const minuteStr = minutesLeft > 0 ? `${minutesLeft} นาที` : '';
 
-          setMessage(`😸 ร้านเปิดอยู่! จะปิดในอีก ${hourStr} ${minuteStr}`.trim());
+          setMessage(` ร้านเปิดอยู่! จะปิดในอีก ${hourStr} ${minuteStr}`.trim());
         }
       } else {
         // ร้านปิด
@@ -71,7 +71,7 @@ const Time = () => {
         const hourStr = hours > 0 ? `${hours} ชั่วโมง` : '';
         const minuteStr = minutes > 0 ? `${minutes} นาที` : '';
 
-        setMessage(`😶‍🌫️ ร้านปิดอยู่ จะเปิดอีก ${hourStr} ${minuteStr}`.trim());
+        setMessage(`ร้านปิดอยู่ จะเปิดอีก ${hourStr} ${minuteStr}`.trim());
       }
     };
 
