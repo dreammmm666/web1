@@ -43,7 +43,7 @@ function Contact() {
 
   
   <div className="right">
-    <p className="contact">@625hilzl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p className="contact">@625hilzl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
   </div>
 </div>
 
